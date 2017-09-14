@@ -1,0 +1,29 @@
+{
+  "name": "sds011_node_test",
+  "version": "1.0.0",
+  "description": "Testing the variation between multiple SDS011 sensors",
+  "main": "index.js",
+  "bugs":{ "url" : "https://github.com/Cinezaster/SDS011_variation-test/issues",
+      "email" : "toon.nelissen@gmail.com"
+    },
+  "repository" :{
+      "type" : "git",
+      "url" : "https://github.com/Cinezaster/SDS011_variation-test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+        "name" : "toon nelissen",
+        "email" : "toon.nelissen@gmail.com"
+      },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "serialport": "^5.0.0"
+  }
+}
